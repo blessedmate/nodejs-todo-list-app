@@ -1,5 +1,6 @@
 require('colors');
 
+// WITHOUT INQURER
 const showMenu = () => {
 
     return new Promise(resolve => {
