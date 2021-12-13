@@ -1,11 +1,8 @@
-const { createFile } = require('./helpers/multiplicar');
-const argv = require('./config/yargs');
+require('colors');
 
-console.clear();
+const main = async () => {
+    console.clear();
+    console.log('Hola mundo');
+}
 
-createFile(argv.base, argv.listar, argv.hasta)
-    .then(fileName => console.log(fileName, 'creado'))
-    .catch(err => console.log(err));
-
-
-
+main();
